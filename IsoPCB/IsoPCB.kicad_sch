@@ -2,9 +2,868 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 1319e006-157c-47ed-8a9a-80fff717e820)
+	(uuid "1319e006-157c-47ed-8a9a-80fff717e820")
 	(paper "A4")
-	(lib_symbols)
+	(title_block
+		(title "Isolierplatine")
+		(date "2025-06-04")
+		(rev "1.0")
+		(company "Technische Universität Berlin - Fachgebiet Leistungselektronik")
+		(comment 1 "Betreuer: Dr.-Ing. Benedikt Kohlhepp")
+		(comment 2 "Ersteller: Felix Ettwein")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Counter_Clockwise"
+				(at 1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 0.127)
+					(end 3.81 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.413)
+					(end 3.81 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -4.953)
+					(end 3.81 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -7.493)
+					(end 3.81 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Treiber Seite"
+		(exclude_from_sim no)
+		(at 154.432 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "83923219-072d-4871-a3b5-c396002f2982")
+	)
+	(text "Mikrocontroller Seite"
+		(exclude_from_sim no)
+		(at 131.064 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86c2bd18-6086-438e-a844-2f6631954a04")
+	)
+	(junction
+		(at 196.85 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a503540-7396-4b8e-9292-87c1e13c6c58")
+	)
+	(junction
+		(at 115.57 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "725561c3-e23b-4bf4-b1f2-d2db3001a3b5")
+	)
+	(junction
+		(at 113.03 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9582e7e-0f7e-45ff-bc01-60e59c0c8743")
+	)
+	(wire
+		(pts
+			(xy 166.37 81.28) (xy 189.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bea5a5b-4ecc-4185-910d-f82e03d0a293")
+	)
+	(wire
+		(pts
+			(xy 196.85 73.66) (xy 208.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b23a029-56c3-400f-97af-23b21d870b3c")
+	)
+	(wire
+		(pts
+			(xy 191.77 99.06) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2001c763-383d-4f76-8ee3-864b382ec1ee")
+	)
+	(wire
+		(pts
+			(xy 196.85 73.66) (xy 196.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203f1db8-4aca-442a-a6df-189a998b313b")
+	)
+	(wire
+		(pts
+			(xy 166.37 99.06) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c60a27-550f-4bbc-bd9b-65e74f422a62")
+	)
+	(wire
+		(pts
+			(xy 90.17 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29bd9d6b-e383-41b7-9156-8398f6c6b676")
+	)
+	(polyline
+		(pts
+			(xy 144.78 49.53) (xy 144.78 118.11)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2ce190b0-d729-44e1-aeb4-ebf1b05a2caa")
+	)
+	(wire
+		(pts
+			(xy 189.23 81.28) (xy 189.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f33ee1c-3580-4efa-86bf-fbd940eaba16")
+	)
+	(wire
+		(pts
+			(xy 90.17 71.12) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd99490-179c-4bfd-a32e-e3fe1fa3c80b")
+	)
+	(wire
+		(pts
+			(xy 166.37 102.87) (xy 194.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecbe1a6-93e2-4b4e-9bf9-23313b8718c5")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 113.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d7d4ac-d810-4f88-a587-fffc77b8b18c")
+	)
+	(wire
+		(pts
+			(xy 196.85 78.74) (xy 196.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d7f24d-d1b2-422a-9064-8a332c53883a")
+	)
+	(wire
+		(pts
+			(xy 113.03 71.12) (xy 113.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3db1e9-efd8-43b7-b020-d7de2762ee45")
+	)
+	(wire
+		(pts
+			(xy 191.77 68.58) (xy 208.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743d0847-c7b0-4e49-a479-8a9f0fa4ad2c")
+	)
+	(wire
+		(pts
+			(xy 90.17 68.58) (xy 115.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1b52fe-c919-475d-b913-a9d7d648d010")
+	)
+	(wire
+		(pts
+			(xy 121.92 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a865fbe6-05f5-436f-9d0d-53c92b1a833f")
+	)
+	(wire
+		(pts
+			(xy 166.37 76.2) (xy 208.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b4b221-49ec-4e37-9f6c-b24510a5768b")
+	)
+	(wire
+		(pts
+			(xy 121.92 95.25) (xy 115.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd619ae6-f47a-4386-803c-03f7fc8cb3ac")
+	)
+	(wire
+		(pts
+			(xy 166.37 106.68) (xy 196.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbe5490-b89e-48df-baa7-5de215491639")
+	)
+	(wire
+		(pts
+			(xy 166.37 95.25) (xy 189.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e2c697-3892-4197-8361-a47c6940f841")
+	)
+	(wire
+		(pts
+			(xy 115.57 68.58) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f641e7-c292-4aa2-b094-37107d7cae4c")
+	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 121.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde5af0d-8d66-427b-a4ff-4325ba56d7f8")
+	)
+	(wire
+		(pts
+			(xy 166.37 78.74) (xy 196.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a28c13-5352-4133-8f10-f8343b8b34e0")
+	)
+	(wire
+		(pts
+			(xy 115.57 95.25) (xy 115.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c2a1a3-da2d-4a21-828e-4d9716a954a9")
+	)
+	(wire
+		(pts
+			(xy 194.31 102.87) (xy 194.31 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ccdef7-cab1-4640-a26e-7235ff225427")
+	)
+	(wire
+		(pts
+			(xy 194.31 71.12) (xy 208.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0bd8796-bf33-4b68-909e-ba505fc25bc8")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 82.55 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ae4b62c-3802-4fc4-ae8a-b54a2ac76d6d")
+		(property "Reference" "J1"
+			(at 83.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x02_Counter_Clockwise"
+			(at 83.82 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Horizontal"
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 82.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1aad5f92-6921-4931-ae2f-6dba85f2078a")
+		)
+		(pin "2"
+			(uuid "4c860742-b94e-4b6d-a868-119000c7dc57")
+		)
+		(pin "4"
+			(uuid "c9e82a69-cb01-467d-9971-b2586d229944")
+		)
+		(pin "1"
+			(uuid "b4e63a3c-e182-449f-ac6c-6ccda4a9b897")
+		)
+		(instances
+			(project ""
+				(path "/1319e006-157c-47ed-8a9a-80fff717e820"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 215.9 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6db1be4-055a-474e-b54f-080d84468962")
+		(property "Reference" "J2"
+			(at 214.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x02_Counter_Clockwise"
+			(at 214.63 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Horizontal"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 215.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c47b6bb8-50ac-4333-a047-38a333e8e5c8")
+		)
+		(pin "2"
+			(uuid "6c0dc656-a8c8-4268-a9fc-165130b576e2")
+		)
+		(pin "4"
+			(uuid "fb729e3e-40fb-4a78-94f5-fba2b6e0da05")
+		)
+		(pin "1"
+			(uuid "bbc2c2d7-e918-4943-b10a-e3c90325e088")
+		)
+		(instances
+			(project "IsoPCB"
+				(path "/1319e006-157c-47ed-8a9a-80fff717e820"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 92.71)
+		(size 44.45 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65e1cb9b-6cc8-4fb0-86e3-6315e61ebf29")
+		(property "Sheetname" "PowerSupply_iso"
+			(at 121.92 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply_iso.kicad_sch"
+			(at 121.92 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5,5V" output
+			(at 166.37 95.25 0)
+			(uuid "7f8fac67-db9b-4c8f-a921-552cf010bfcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_Driver" output
+			(at 166.37 102.87 0)
+			(uuid "8992ee12-949e-4aa1-96cc-e65f0d0706b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V+_Driver" output
+			(at 166.37 99.06 0)
+			(uuid "f2c12bc5-7caa-4fad-8b75-0b4e7ee2017a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V-_Driver" output
+			(at 166.37 106.68 0)
+			(uuid "db3a9363-3c2e-49b9-a537-fad341876a97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" input
+			(at 121.92 95.25 180)
+			(uuid "e278da93-0b66-4e7c-899c-48bd414e1ea0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 121.92 106.68 180)
+			(uuid "4a81d3de-2bbb-4bf7-9a66-22beabdc1199")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IsoPCB"
+				(path "/1319e006-157c-47ed-8a9a-80fff717e820"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 66.04)
+		(size 44.45 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff2faed7-19b5-485b-9937-cfd73930ccfc")
+		(property "Sheetname" "PWM_iso"
+			(at 121.92 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWM_iso.kicad_sch"
+			(at 121.92 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM_IN" input
+			(at 121.92 76.2 180)
+			(uuid "535a2773-2edf-47d8-a60d-5793f1873b95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_OUT" output
+			(at 166.37 76.2 0)
+			(uuid "5287148f-a27e-4592-8d09-01baaf42e7ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V-_DRIVER" input
+			(at 166.37 78.74 0)
+			(uuid "4a55a4fe-82b1-4090-9756-1fc18e0739fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5,5V" input
+			(at 166.37 81.28 0)
+			(uuid "1bdb3b0a-7f88-46e5-bae5-b4b96ba5af7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" input
+			(at 121.92 68.58 180)
+			(uuid "098a3b6f-daa7-4643-a0a8-2b5b9a093041")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 121.92 81.28 180)
+			(uuid "48adc89a-bac5-42d4-bc31-c50040f513b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "IsoPCB"
+				(path "/1319e006-157c-47ed-8a9a-80fff717e820"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
